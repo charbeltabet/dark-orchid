@@ -1,6 +1,6 @@
 # Hugo Dark Orchid Personal Website - Portfolio theme
 
-[Live demo here]()
+[Live demo here](https://darkorchid.netlify.app/)
 
 Hugo Dark Orchid is a personal webiste theme made for content creators, designers and coders to showcase their work and expertise.
 
