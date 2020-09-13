@@ -374,6 +374,9 @@ section.wine-red {
   section {
     padding: 10% 5%;
   }
+  th h5 {
+    font-size: 90%;
+  }
   section.classy-purple h5 {
     font-size: 90%;
   }
