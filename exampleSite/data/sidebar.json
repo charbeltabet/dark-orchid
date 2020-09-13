@@ -1,6 +1,16 @@
 {
-	"title" : "hey world, i'm",
-	"highlightedText" : "valentina",
-	"description" : "A graphics designer, based in Germany.",
-	"displayPicture" : "sim.jpg"
+	"title" : "Hello world, I'm",
+	"highlightedText" : "Caroline",
+	"description" : "A software developer, based in Swizerland.",
+	"displayPicture" : "me.jpeg",
+	"links": [
+		{
+			"text": "Check my blog",
+			"url": "https://<linktoyourblog>"
+		},
+		{
+			"text": "Download my resume",
+			"url": "https://<linktoyourcv>"
+		}
+	]
 }

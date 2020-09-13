@@ -1,6 +1,7 @@
 {
-	"facebook" : "https://facebook.com/<yourusername>",
+	"twitter" : "https://twitter.com/<yourusername>",
 	"instagram" : "https://instagram.com/<yourusername>",
-	"dribbble" : "https://dribbble.com/<yourusername>",
-	"behance" : "https://behnace.com/<yourusername>"
+	"linkedin" : "https://linkedin.com/<yourusername>",
+	"medium" : "https://medium.com/<yourusername>",
+	"github" : "https://github.com/<yourusername>"
 }

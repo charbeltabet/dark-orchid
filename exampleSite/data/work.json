@@ -1,0 +1,35 @@
+{
+	"title" : "WORK",
+	"projects" : [
+		{
+			"image" : "work/01.jpg",
+			"title" : "Missile guidance software",
+			"description" : "Sagittis lobortis aenean velit phasellus cras non, eleifend massa proin tincidunt euismod porta, sollicitudin accumsan aliquet montes dui.",
+			"preview": "https://preview.com",
+			"portfolio": "https://<deleteIfYouHaveNoExternalPortfolio"
+		},
+		{
+			"image" : "work/02.jpg",
+			"title" : "Falcon Net Ecosystem",
+			"description" : " Hac a magnis lectus quam turpis volutpat molestie venenatis interdum orci, nisl posuere velit lobortis metus aptent hendrerit phasellus integer ornare.",
+			"code": "https://github.com/<deleteIfNotAvailable>",
+			"preview": "https://preview.com",
+			"portfolio": "https://<deleteIfYouHaveNoExternalPortfolio"
+		},
+		{
+			"image" : "work/03.jpg",
+			"title" : "F-35 Software Development",
+			"description" : "Pharetra sed eu tempus mattis aliquet justo a metus, penatibus libero venenatis euismod donec curabitur nisl dapibus, dictumst class curae convallis.",
+			"code": "https://github.com/<deleteIfNotAvailable>",
+			"preview": "https://preview.com"
+		},
+		{
+			"image" : "work/04.jpg",
+			"title" : "Submarine sonar system",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. ",
+			"code": "https://github.com/<deleteIfNotAvailable>",
+			"preview": "https://preview.com"
+		}
+	],
+	"portfolio": "https://<deleteIfYouHaveNoExternalPortfolio"
+}

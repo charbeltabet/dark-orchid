@@ -1,6 +1,6 @@
 {{ $experience := .Site.Data.experience }}
 
-<section id="experience" class="green">
+<section id="experience" class="wine-red">
   <h2 class="heading">{{ $experience.title }}</h2>
   <div id="timeline">
     {{ range $index, $element := $experience.experience }}
@@ -17,7 +17,7 @@
           {{ $website }}
         </a>
         {{ end }}
-        <p class="">{{ $element.description }}</p>
+        <p style="color: #fffdfb !important;">{{ $element.description }}</p>
       </div>
     </div>
     {{ end }}

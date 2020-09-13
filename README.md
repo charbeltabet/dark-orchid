@@ -1,26 +1,21 @@
-# Hugo Uilite Portfolio theme
+# Hugo Dark Orchid Personal Website - Portfolio theme
 
-![Hugo UILite Portfolio](https://api.uicard.io/uploads/fbb72e1060675dc28fd8a6f02b0be9c4.jpg)
+[Live demo here]()
 
-Hugo UILite portfolio theme is designed especially for designers and developers who need a good-looking portfolio website without much efforts. It includes all the components to showcase the skills and work.
+Hugo Dark Orchid is a personal webiste theme made for content creators, designers and coders to showcase their work and expertise.
 
-### Free version includes
+It features the following sections:
+- Skills
+- Work
+- Experience
+- Services
+- Contact
 
-- Skills section
-- Experience timeline
-- Service section
-- Contact Form
-- Social links
-- Good SEO
+In addition to the main section containing:
+- Greetings
+- Custom Links
+- Social media icons
 
-### Pro version also includes
+Perfect for content creators and developers who need a good-looking portfolio website without muchefforts. It includes all the components toshowcase the skills and work.
 
-- Blog
-- Work/portfolio
-- Disqus
-- Documentation
-- Support
-
-### Useful Links
-
-[Free Demo](https://demo.uicard.io/hugo-uilite-free/) | [Pro Demo](https://demo.uicard.io/hugo-uilite-portfolio-demo/) | [More Info](https://uicard.io/products/hugo-uilite-pro?utm_source=github)
+Forked from  _hugo uilite_ theme [here](https://github.com/uicardiodev/hugo-uilite)
