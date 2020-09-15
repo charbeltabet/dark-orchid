@@ -1,0 +1,15 @@
+{
+	"title" : "SERVICES",
+	"services" : [
+		{
+			"icon" : "user-secret",
+			"title" : "Pentesting",
+			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+		},
+		{
+			"icon" : "laptop-code",
+			"title" : "Web development",
+			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+		}
+	]
+}

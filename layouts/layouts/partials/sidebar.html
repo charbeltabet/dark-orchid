@@ -1,0 +1,40 @@
+{{ $sidebar := .Site.Data.sidebar }}
+{{ $social := .Site.Data.social }}
+{{ $socialfas := .Site.Data.socialfas}}
+{{ $links := $sidebar.links }}
+
+<section id="sidebar" class="french-gray sidebar d-flex align-items-center p-5">
+  <div class="main-info">
+
+    <img src="{{.Site.BaseURL}}images/{{ $sidebar.displayPicture }}" class="rounded-circle mb-3" width="160px">
+
+    <h1 class="heading">{{ $sidebar.title }} <br><span class="highlight">{{ $sidebar.highlightedText }}</span></h1>
+    <p style="font-weight: bolder;">{{ $sidebar.description }}</p>
+
+    <ul style="list-style-type: none; padding-left: 0;">
+      {{ range $link := $links }}
+      <li><a href="{{ $link.url }}" style=" color: #232323; font-weight: bolder; text-decoration: underline;" target="_blank">{{ $link.text }}</a></li>
+      {{ end }}
+    </ul>
+
+    <div class="social my-4">
+
+      {{ range $key, $value := $social }}
+        <a target="_blank" href="{{ $value }}" rel="me">
+          <i class="fab fa-{{ $key }}"></i>
+        </a>
+      {{ end }}
+
+      {{ range $key, $value := $socialfas }}
+        <a target="_blank" href="{{ $value }}">
+          <i class="fas fa-{{ $key }}"></i>
+        </a>
+      {{ end }}
+
+
+    </div>
+
+    <a href="#contact" class="btn btn-dark btn-lg">Contact</a>
+
+  </div>
+</section>

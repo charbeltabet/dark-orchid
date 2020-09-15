@@ -1,0 +1,15 @@
+{
+	"title" : "EXPERIENCE",
+	"experience" : [
+		{
+			"timeperiod" : "Oct 2019 - Mars 2020",
+			"company" : "Microsoft",
+			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+		},
+		{
+			"timeperiod" : "Mars 2020 - Present",
+			"company" : "Self Employed",
+			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+		}
+	]
+}
