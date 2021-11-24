@@ -15,16 +15,16 @@
         <p style="text-align: left;">{{ $element.description }}</p>
         <div class="grid">
           <div>
-            <div class="float-left"><i class="fas fa-eye"></i>&nbsp;<a href="{{ $element.preview }}" target="_blank" style="color: #232323; text-decoration: underline;">Preview</a></div>
-            <div class="float-right"><i class="fas fa-code"></i>&nbsp;{{ if $element.code }}<a href="{{ $element.code }}" target="_blank" style="color: #232323; text-decoration: underline;">View code</a>{{ else}}<a href="#contact" style="color: #232323; text-decoration: underline;">Contact</a> for snippets{{ end }}</div>
+            <div class="float-left"><i class="fas fa-eye"></i>&nbsp;<a href="{{ $element.preview }}" target="_blank" rel="noreferrer" style="color: #232323; text-decoration: underline;">Preview</a></div>
+            <div class="float-right"><i class="fas fa-code"></i>&nbsp;{{ if $element.code }}<a href="{{ $element.code }}" rel="noreferrer" target="_blank" style="color: #232323; text-decoration: underline;">View code</a>{{ else}}<a href="#contact" style="color: #232323; text-decoration: underline;">Contact</a> for snippets{{ end }}</div>
           </div>
         </div>
       </div>
-      {{ if $element.portfolio }}<footer class="blockquote-footer text-white text-center">Check it on my <u><a class="text-white" href="{{ $element.portfolio }}" target="_blank"><cite title="Portfolio specific link">portfolio</cite></a></u></footer>{{ end }}
+      {{ if $element.portfolio }}<footer class="blockquote-footer text-white text-center">Check it on my <u><a class="text-white" href="{{ $element.portfolio }}" rel="noreferrer" target="_blank"><cite title="Portfolio specific link">portfolio</cite></a></u></footer>{{ end }}
     </div>
 
     {{ end }}
   </div>
-  {{ if $portfolioLink }}<center><a href="{{ $portfolioLink }}" class="mt-4 btn btn-danger" target="_blank">Check my portfolio for more</a></center>{{ end }}
+  {{ if $portfolioLink }}<center><a href="{{ $portfolioLink }}" class="mt-4 btn btn-danger" target="_blank" rel="noreferrer">Check my portfolio for more</a></center>{{ end }}
 
 </section>

@@ -13,20 +13,20 @@
 
     <ul style="list-style-type: none; padding-left: 0;">
       {{ range $link := $links }}
-      <li><a href="{{ $link.url }}" style=" color: #232323; font-weight: bolder; text-decoration: underline;" target="_blank">{{ $link.text }}</a></li>
+      <li><a href="{{ $link.url }}" style=" color: #232323; font-weight: bolder; text-decoration: underline;" target="_blank" rel="noreferrer">{{ $link.text }}</a></li>
       {{ end }}
     </ul>
 
     <div class="social my-4">
 
       {{ range $key, $value := $social }}
-        <a target="_blank" href="{{ $value }}" rel="me">
+        <a target="_blank" href="{{ $value }}" rel="noreferrer">
           <i class="fab fa-{{ $key }}"></i>
         </a>
       {{ end }}
 
       {{ range $key, $value := $socialfas }}
-        <a target="_blank" href="{{ $value }}">
+        <a target="_blank" href="{{ $value }}" rel="noreferrer">
           <i class="fas fa-{{ $key }}"></i>
         </a>
       {{ end }}
